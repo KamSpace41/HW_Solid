@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//Магические числа
 public class Main {
     static final int EXIT_CODE = 0;
     static final int MIN_PRODUCT = 1;
@@ -8,7 +8,8 @@ public class Main {
 
     static ArrayList<String> basket = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
-
+    
+//SRP: Главный метод только запускает магазин
     public static void main(String[] args) {
         runShop();
     }
@@ -92,5 +93,6 @@ public class Main {
         }
     }
 }
+
 
 
